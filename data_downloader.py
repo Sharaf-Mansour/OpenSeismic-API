@@ -42,14 +42,14 @@ def get_event_params(event):
         event_params['evaluation_mode'] = mag['evaluation_mode'] if mag['evaluation_mode'] is not None else None
         event_params['evaluation_status'] = mag['evaluation_status'] if mag['evaluation_status'] is not None else None
 
-    # if origin.time < "2022-01-20":
-    #   split = 'train'
-    # elif origin.time<'2022-01-23':
-    #   split = 'val'
-    # else:
-    #   split = 'test'
+# if origin.time < "2022-01-20":
+#   split = 'train'
+# elif origin.time<'2022-01-23':
+#   split = 'val'
+# else:
+#   split = 'test'
 
-    # event_params["split"] = split
+# event_params["split"] = split
 
     return event_params
 

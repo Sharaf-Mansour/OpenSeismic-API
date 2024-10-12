@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<q:quakeml xmlns="http://quakeml.org/xmlns/bed/1.2" xmlns:q="http://quakeml.org/xmlns/quakeml/1.2" xmlns:mars="http://quakeml.org/xmlns/bed/1.2/mars">
+  <eventParameters publicID="smi:insight.mqs/EventParameters">
+    <event publicID="smi:insight.mqs/mqs2022gprn">
+      <description>
+        <text>S1192a</text>
+        <type>earthquake name</type>
+      </description>
+      <description>
+        <text>Elysium Southwest</text>
+        <type>region name</type>
+      </description>
+      <typeCertainty>suspected</typeCertainty>
+      <creationInfo>
+        <agencyID>mqs</agencyID>
+        <author>scevent@sc3mars-op</author>
+        <creationTime>2022-04-06T11:02:39.941345Z</creationTime>
+      </creationInfo>
+      <origin publicID="smi:insight.mqs/Origin/20220406110203.550146.92498">
+        <arrival publicID="smi:insight.mqs/Pick/20220406110203.549593.92492_Origin/20220406110203.550146.92498">
+          <azimuth>108.8539635</azimuth>
+          <distance>4.951151082E-5</distance>
+          <pickID>smi:insight.mqs/Pick/20220406110203.549593.92492</pickID>
+          <phase>P_spectral_end</phase>
+          <timeWeight>1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:insight.mqs/Pick/20220406110203.549859.92495_Origin/20220406110203.550146.92498">
+          <azimuth>108.8539635</azimuth>
+          <distance>4.951151082E-5</distance>
+          <pickID>smi:insight.mqs/Pick/20220406110203.549859.92495</pickID>
+          <phase>S_spectral_end</phase>
+          <timeWeight>1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:insight.mqs/Pick/20220406110203.549414.92490_Origin/20220406110203.550146.92498">
+          <azimuth>108.8539635</azimuth>
+          <distance>4.951151082E-5</distance>
+          <pickID>smi:insight.mqs/Pick/20220406110203.549414.92490</pickID>
+          <phase>Pg</phase>
+          <timeWeight>1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:insight.mqs/Pick/20220406110203.549956.92496_Origin/20220406110203.550146.92498">
+          <azimuth>108.8539635</azimuth>
+          <distance>4.951151082E-5</distance>
+          <pickID>smi:insight.mqs/Pick/20220406110203.549956.92496</pickID>
+          <phase>end</phase>
+          <timeWeight>1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:insight.mqs/Pick/20220406110203.549322.92489_Origin/20220406110203.550146.92498">
+          <azimuth>108.8539635</azimuth>
+          <distance>4.951151082E-5</distance>
+          <pickID>smi:insight.mqs/Pick/20220406110203.549322.92489</pickID>
+          <phase>noise_end</phase>
+          <timeWeight>1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:insight.mqs/Pick/20220406110203.549222.92488_Origin/20220406110203.550146.92498">
+          <azimuth>108.8539635</azimuth>
+          <distance>4.951151082E-5</distance>
+          <pickID>smi:insight.mqs/Pick/20220406110203.549222.92488</pickID>
+          <phase>noise_start</phase>
+          <timeWeight>1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:insight.mqs/Pick/20220406110203.549777.92494_Origin/20220406110203.550146.92498">
+          <azimuth>108.8539635</azimuth>
+          <distance>4.951151082E-5</distance>
+          <pickID>smi:insight.mqs/Pick/20220406110203.549777.92494</pickID>
+          <phase>S_spectral_start</phase>
+          <timeWeight>1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:insight.mqs/Pick/20220406110203.549504.92491_Origin/20220406110203.550146.92498">
+          <azimuth>108.8539635</azimuth>
+          <distance>4.951151082E-5</distance>
+          <pickID>smi:insight.mqs/Pick/20220406110203.549504.92491</pickID>
+          <phase>P_spectral_start</phase>
+          <timeWeight>1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:insight.mqs/Pick/20220406110203.54969.92493_Origin/20220406110203.550146.92498">
+          <azimuth>108.8539635</azimuth>
+          <distance>4.951151082E-5</distance>
+          <pickID>smi:insight.mqs/Pick/20220406110203.54969.92493</pickID>
+          <phase>Sg</phase>
+          <timeWeight>1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:insight.mqs/Pick/20220406110203.548528.92487_Origin/20220406110203.550146.92498">
+          <azimuth>108.8539635</azimuth>
+          <distance>4.951151082E-5</distance>
+          <pickID>smi:insight.mqs/Pick/20220406110203.548528.92487</pickID>
+          <phase>start</phase>
+          <timeWeight>1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:insight.mqs/Pick/20220406110203.55004.92497_Origin/20220406110203.550146.92498">
+          <azimuth>108.8539635</azimuth>
+          <distance>4.951151082E-5</distance>
+          <pickID>smi:insight.mqs/Pick/20220406110203.55004.92497</pickID>
+          <phase>Peak_M2.4</phase>
+          <timeWeight>1.0</timeWeight>
+        </arrival>
+        <time>
+          <value>2022-04-04T23:06:52.6167Z</value>
+        </time>
+        <longitude>
+          <value>135.6234</value>
+        </longitude>
+        <latitude>
+          <value>4.5024</value>
+        </latitude>
+        <quality>
+          <depthPhaseCount>0</depthPhaseCount>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>mqs</agencyID>
+          <author>ah</author>
+          <creationTime>2022-04-06T11:02:03.550198Z</creationTime>
+        </creationInfo>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <mars:locationQuality>http://quakeml.org/vocab/marsquake/1.0/MarsLocationQualityType#B</mars:locationQuality>
+      </origin>
+      <magnitude publicID="smi:insight.mqs/Magnitude/20220930-093201/19fa9b24">
+        <mag>
+          <value>2.0</value>
+          <lowerUncertainty>0.2</lowerUncertainty>
+          <upperUncertainty>0.2</upperUncertainty>
+        </mag>
+        <type>MW</type>
+        <originID>smi:insight.mqs/Origin/20220406110203.550146.92498</originID>
+      </magnitude>
+      <preferredMagnitudeID>smi:insight.mqs/Magnitude/20220930-093201/19fa9b24</preferredMagnitudeID>
+      <pick publicID="smi:insight.mqs/Pick/20220406110203.549222.92488">
+        <phaseHint>noise_start</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>mqs</agencyID>
+          <author>ah</author>
+          <creationTime>2022-04-06T11:02:03.549273Z</creationTime>
+        </creationInfo>
+        <time>
+          <value>2022-04-04T23:03:38.086704Z</value>
+        </time>
+        <waveformID networkCode="XB" stationCode="ELYSE" locationCode="02" channelCode="BHZ"/>
+        <filterID>smi:local/sc3filter/BW(6,2.2,2.8)__INT(0)</filterID>
+      </pick>
+      <pick publicID="smi:insight.mqs/Pick/20220406110203.54969.92493">
+        <phaseHint>Sg</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>mqs</agencyID>
+          <author>ah</author>
+          <creationTime>2022-04-06T11:02:03.549733Z</creationTime>
+        </creationInfo>
+        <time>
+          <value>2022-04-04T23:16:48.265836Z</value>
+          <lowerUncertainty>20.0</lowerUncertainty>
+          <upperUncertainty>20.0</upperUncertainty>
+        </time>
+        <waveformID networkCode="XB" stationCode="ELYSE" locationCode="02" channelCode="BHZ"/>
+        <filterID>smi:local/sc3filter/BW(6,2.2,2.8)__STALTA(100,1000)</filterID>
+      </pick>
+      <pick publicID="smi:insight.mqs/Pick/20220406110203.55004.92497">
+        <phaseHint>Peak_M2.4</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>mqs</agencyID>
+          <author>ah</author>
+          <creationTime>2022-04-06T11:02:03.550084Z</creationTime>
+        </creationInfo>
+        <time>
+          <value>2022-04-04T23:18:38.674045Z</value>
+        </time>
+        <waveformID networkCode="XB" stationCode="ELYSE" locationCode="02" channelCode="BHZ"/>
+        <filterID>smi:local/sc3filter/BW(6,2.2,2.8)__INT(0)</filterID>
+      </pick>
+      <pick publicID="smi:insight.mqs/Pick/20220406110203.548528.92487">
+        <phaseHint>start</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>mqs</agencyID>
+          <author>ah</author>
+          <creationTime>2022-04-06T11:02:03.548964Z</creationTime>
+        </creationInfo>
+        <time>
+          <value>2022-04-04T23:11:52.616746Z</value>
+        </time>
+        <waveformID networkCode="XB" stationCode="ELYSE" locationCode="02" channelCode="BHZ"/>
+        <filterID>smi:local/sc3filter/BW(6,2.2,2.8)__STALTA(100,1000)</filterID>
+      </pick>
+      <pick publicID="smi:insight.mqs/Pick/20220406110203.549593.92492">
+        <phaseHint>P_spectral_end</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>mqs</agencyID>
+          <author>ah</author>
+          <creationTime>2022-04-06T11:02:03.549636Z</creationTime>
+        </creationInfo>
+        <time>
+          <value>2022-04-04T23:14:35.738037Z</value>
+        </time>
+        <waveformID networkCode="XB" stationCode="ELYSE" locationCode="02" channelCode="BHZ"/>
+        <filterID>smi:local/sc3filter/BW(6,2.2,2.8)__STALTA(100,1000)</filterID>
+      </pick>
+      <pick publicID="smi:insight.mqs/Pick/20220406110203.549956.92496">
+        <phaseHint>end</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>mqs</agencyID>
+          <author>ah</author>
+          <creationTime>2022-04-06T11:02:03.549998Z</creationTime>
+        </creationInfo>
+        <time>
+          <value>2022-04-04T23:24:23.598776Z</value>
+        </time>
+        <waveformID networkCode="XB" stationCode="ELYSE" locationCode="02" channelCode="BHZ"/>
+        <filterID>smi:local/sc3filter/BW(6,2.2,2.8)__STALTA(100,1000)</filterID>
+      </pick>
+      <pick publicID="smi:insight.mqs/Pick/20220406110203.549414.92490">
+        <phaseHint>Pg</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>mqs</agencyID>
+          <author>ah</author>
+          <creationTime>2022-04-06T11:02:03.549458Z</creationTime>
+        </creationInfo>
+        <time>
+          <value>2022-04-04T23:12:12.572401Z</value>
+          <lowerUncertainty>20.0</lowerUncertainty>
+          <upperUncertainty>20.0</upperUncertainty>
+        </time>
+        <waveformID networkCode="XB" stationCode="ELYSE" locationCode="02" channelCode="BHZ"/>
+        <filterID>smi:local/sc3filter/BW(6,2.2,2.8)__STALTA(100,1000)</filterID>
+      </pick>
+      <pick publicID="smi:insight.mqs/Pick/20220406110203.549859.92495">
+        <phaseHint>S_spectral_end</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>mqs</agencyID>
+          <author>ah</author>
+          <creationTime>2022-04-06T11:02:03.549909Z</creationTime>
+        </creationInfo>
+        <time>
+          <value>2022-04-04T23:19:20.043483Z</value>
+        </time>
+        <waveformID networkCode="XB" stationCode="ELYSE" locationCode="02" channelCode="BHZ"/>
+        <filterID>smi:local/sc3filter/BW(6,2.2,2.8)__STALTA(100,1000)</filterID>
+      </pick>
+      <pick publicID="smi:insight.mqs/Pick/20220406110203.549322.92489">
+        <phaseHint>noise_end</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>mqs</agencyID>
+          <author>ah</author>
+          <creationTime>2022-04-06T11:02:03.549366Z</creationTime>
+        </creationInfo>
+        <time>
+          <value>2022-04-04T23:08:26.397421Z</value>
+        </time>
+        <waveformID networkCode="XB" stationCode="ELYSE" locationCode="02" channelCode="BHZ"/>
+        <filterID>smi:local/sc3filter/BW(6,2.2,2.8)__INT(0)</filterID>
+      </pick>
+      <pick publicID="smi:insight.mqs/Pick/20220406110203.549504.92491">
+        <phaseHint>P_spectral_start</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>mqs</agencyID>
+          <author>ah</author>
+          <creationTime>2022-04-06T11:02:03.549547Z</creationTime>
+        </creationInfo>
+        <time>
+          <value>2022-04-04T23:12:18.027587Z</value>
+        </time>
+        <waveformID networkCode="XB" stationCode="ELYSE" locationCode="02" channelCode="BHZ"/>
+        <filterID>smi:local/sc3filter/BW(6,2.2,2.8)__STALTA(100,1000)</filterID>
+      </pick>
+      <pick publicID="smi:insight.mqs/Pick/20220406110203.549777.92494">
+        <phaseHint>S_spectral_start</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>mqs</agencyID>
+          <author>ah</author>
+          <creationTime>2022-04-06T11:02:03.549818Z</creationTime>
+        </creationInfo>
+        <time>
+          <value>2022-04-04T23:17:06.034926Z</value>
+        </time>
+        <waveformID networkCode="XB" stationCode="ELYSE" locationCode="02" channelCode="BHZ"/>
+        <filterID>smi:local/sc3filter/BW(6,2.2,2.8)__STALTA(100,1000)</filterID>
+      </pick>
+      <preferredOriginID>smi:insight.mqs/Origin/20220406110203.550146.92498</preferredOriginID>
+      <type>other event</type>
+      <mars:type>http://quakeml.org/vocab/marsquake/1.0/MarsEventType#2.4_HZ</mars:type>
+      <mars:typeCertainty>suspected</mars:typeCertainty>
+      <mars:snr snrMQS="5.5"/>
+    </event>
+  </eventParameters>
+</q:quakeml>

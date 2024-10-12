@@ -86,7 +86,7 @@ def get_spectrogram_and_bbox(number_trace,data):
     # Plot the spectrogram
     pcm = ax.pcolormesh(times, frequencies, Sxx_0, cmap='viridis', shading='gouraud')
 
-    plt.savefig(f'{number_trace}.png', dpi=100) # saving figure
+    plt.savefig(f'data/{number_trace}.png', dpi=100) # saving figure
 
     ymin, ymax = ax.get_ylim() # get y axis limits
 
@@ -97,6 +97,6 @@ def get_spectrogram_and_bbox(number_trace,data):
     ax.add_patch(plt.Rectangle((bbox_x, bbox_y), bbox_width, bbox_height, fill=False, edgecolor='red', linewidth=2)) # Add bounding box
     # draw the bounding box
 
-    fig.savefig(f'box{number_trace}.png', dpi=100) # save figure
+    fig.savefig(f'box/box{number_trace}.png', dpi=100) # save figure
      
     return "data filltered"
