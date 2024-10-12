@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 import uvicorn
 
-from data_downloader import write_data
+from data_downloader import Construct_Dataset
 import seisbench.data as sbd
 from data_filter import get_spectrogram_and_bbox
 from yolo  import predict
@@ -13,8 +13,8 @@ def read_root():
 
 @app.get("/download_data")
 def download_data(startdate: str, enddate: str):
-    write_data(startdate, enddate)
-    data = sbd.WaveformDataset('data_v2_denoised', cache='full')
+    Construct_Dataset(startdate, enddate)
+    data = sbd.WaveformDataset('Waveforms', cache='full')
     results = []
     for number_trace in range(len(data)):
         text = get_spectrogram_and_bbox(number_trace, data)
