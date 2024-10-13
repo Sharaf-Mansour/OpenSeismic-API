@@ -63,4 +63,4 @@ def get_image(startdate: str, enddate: str):
 
 if __name__ == "__main__":
   # uvicorn.run(app, host="0.0.0.0", port=8000) # dev
-    uvicorn.run(app, host="0.0.0.0", port=80) # prod
+    uvicorn.run(app, host="0.0.0.0", port=8000) # prod
