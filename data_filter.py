@@ -1,4 +1,8 @@
+import matplotlib
+matplotlib.use('Agg')  # Non-GUI backend for rendering
+
 import matplotlib.pyplot as plt
+
 from scipy.signal import butter,filtfilt
 from scipy import signal
 import os
@@ -78,6 +82,9 @@ def get_spectrogram_and_bbox(number_trace,data):
                                 band_filt=False)
     frequencies, times, Sxx_0 = signal.spectrogram(filtered_trace0, 20,nfft = 2000,nperseg=400 , noverlap = 200,scaling = 'density')
 
+
+
+ 
     fig, ax = plt.subplots(figsize=(12, 8),dpi=100)
 
     # Hide axes and spines
@@ -97,6 +104,7 @@ def get_spectrogram_and_bbox(number_trace,data):
     ax.add_patch(plt.Rectangle((bbox_x, bbox_y), bbox_width, bbox_height, fill=False, edgecolor='red', linewidth=2)) # Add bounding box
     # draw the bounding box
 
-    fig.savefig(f'box/box{number_trace}.png', dpi=100) # save figure
-     
+    fig.savefig(f'box/{number_trace}.png', dpi=100) # save figure
+    plt.close(fig) # close figure
+    print(f"Processed trace {number_trace}")
     return "data filltered"
